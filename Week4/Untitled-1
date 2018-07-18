@@ -1,0 +1,14 @@
+	if (roomwidth<1){
+				prompt("Please enter number greater than zero!")
+			}
+				else if (roomwidth!=Number){
+					prompt("Please enter a number greater than zero!")
+				}
+				
+				
+					if (roomlength<1){
+				prompt("Please enter number greater than zero!")
+			}
+				else if (roomlength!=Number){
+					prompt("Please enter a number greater than zero!")
+				}

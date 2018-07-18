@@ -1,0 +1,105 @@
+Luke, Jen
+
+Begin
+  //Pseudocode goes here
+
+  initialize number1 to 0
+  initialize number2 to 0
+  initialize number3 to 0
+  
+  prompt for number1 "Enter value for number1"
+  prompt for number2 "Enter value for number2"
+  prompt for number3 "Enter value for number3"
+  
+  IF number1 < number2 && number2 < number3 THEN 
+    display number1 +  number2 + number3
+    
+  ELSEIF number2 < number1 && number1 < number3 THEN 
+    display number2 +  number1 + number3 
+
+  ELSEIF number3 < number2 && number2 < number1 THEN 
+    display number3 +  number2 + number1 
+
+  ELSEIF number1 < number3 && number3 < number2 THEN 
+    display number1 +  number3 + number2
+  
+  ELSEIF number2 < number3 && number3 < number1 THEN 
+      display number2 +  number3 + number1
+  
+  ELSEIF number3 < number1 && number1 < number2 THEN 
+      display number3 +  number1 + number2
+    
+  EndIF
+End
+
+
+//Pseudocode to output all numbers from 1 to 100.
+
+Begin
+  initialize count to 1
+  
+  FOREACH number 1 to 100 increase in increments of 1
+    count = count + 1
+    
+    display count
+  
+End
+
+
+
+// Reads 2 numbers, raises the first number to the powerof second, and prints the value.
+
+read next number from list, up to 2 numbers
+
+// Calculate total
+value = number1^number2
+
+// Display total
+display = value
+
+
+
+// Reads in, calculates, and outputs the average of 5 numbers
+read numbers from 1 to 5
+
+average = (num1 + num2 + num3 + num4 + num5) / 5
+
+display average
+
+
+//Prints all multiples of 5 within the inclusive rante 1 to 100
+
+BEGIN
+  initialize count to 0
+
+  FOREACH number 1 to 100 in increments of 5
+  count = count + 5
+
+  display count
+END
+
+//Calculates a running sum until a negative number is encountered and outputs the final result
+
+initialize count to 0
+
+prompt for number "Enter a number"
+  display number
+
+IF number is <=0,THEN
+  
+sum = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

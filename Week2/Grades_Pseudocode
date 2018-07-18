@@ -1,0 +1,95 @@
+BEGIN
+
+	initialize grade to 0
+	initialize studentName to ""
+	initialize studentGrade to 0
+	initialize output to ""
+	initialize count to 0
+	
+	
+	prompt for studentName with "Please enter the students name."
+	
+	prompt for grade with "What is the first grade?"
+		display grade
+	
+	prompt for grade with "Is there another grade?" 
+	
+	
+	WHILE there are grades to process,
+		DO prompt for grade with "What is the next grade?"
+			Enter grade display grade
+	ENDWHILE	
+		
+	total = sum of grades 
+	
+	FOREACH grade
+		count = count + 1
+	END
+	
+	gradeTotal = total/count
+	
+	FUNCTION calcLetterGrade (parameters: average)
+    
+        IF average >= 85 THEN
+            
+            Set grade to 'A'
+            
+        ELSE IF average >= 65 THEN
+            
+            Set grade to 'B'
+        
+        ELSE IF average >= 50 THEN
+            
+            Set grade to 'C'
+        
+        ELSE IF average between >= 40 THEN
+				
+            Set grade to 'D'
+						
+				ELSE IF average between <= 40 THEN
+				
+            Set grade to 'F'
+        
+        END IF
+        
+        RETURN letterGrade
+        
+    END FUNCTION
+	
+	
+	output = studentName + "\n"
+	output = output + letterGrade
+	
+	display output
+	
+	LOOP
+		initialize all to 0, prompt for studentName with "Please enter the next students name"
+	ENDLOOP
+	
+	
+END
+
+
+
+Inputs
+
+Jen Diederich
+96.8
+Yes
+98.8
+Yes
+95.5
+Yes
+97
+No
+
+Outputs
+
+Jen Diederich
+letterGrade = A
+
+
+
+
+
+
